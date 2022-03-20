@@ -11,7 +11,15 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.46.0"
+    "@tsconfig/svelte": "^3.0.0",
+    "prettier": "^2.6.0",
+    "prettier-plugin-svelte": "^2.6.0",
+    "svelte": "^3.46.0",
+    "svelte-check": "^2.4.6",
+    "svelte-preprocess": "^4.10.4",
+    "svelte-windicss-preprocess": "^4.2.6",
+    "typescript": "^4.6.2",
+    "vite-plugin-windicss": "^1.8.3"
   },
   "type": "module",
   "dependencies": {
