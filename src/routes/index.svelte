@@ -1,59 +1,21 @@
-<script context="module">
-	export const prerender = true;
-</script>
+<div class="container mx-auto px-5 py-5">
+	<div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+		<h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About me</h1>
 
-<script>
-	import Counter from '$lib/Counter.svelte';
-</script>
-
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
-
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
+		<p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Yuto Mori</p>
+	</div>
+	<div class="flex flex-wrap -m-4">
+		<div class="xl:w-1/3 md:w-1/2 p-4">
+			<div class="border border-gray-200 p-6 rounded-lg">
+				<h2 class="text-lg text-gray-900 font-medium title-font mb-2">Work1</h2>
+				<p class="leading-relaxed text-base">description1</p>
+			</div>
 		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+		<div class="xl:w-1/3 md:w-1/2 p-4">
+			<div class="border border-gray-200 p-6 rounded-lg">
+				<h2 class="text-lg text-gray-900 font-medium title-font mb-2">Work2</h2>
+				<p class="leading-relaxed text-base">description2</p>
+			</div>
+		</div>
+	</div>
+</div>

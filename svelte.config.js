@@ -1,19 +1,18 @@
-import adapter from "@sveltejs/adapter-auto";
-import WindiCSS from "vite-plugin-windicss";
+import adapter from '@sveltejs/adapter-auto';
+import preprocess from 'svelte-preprocess';
+import { windi } from 'svelte-windicss-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    adapter: adapter(),
+	preprocess: [preprocess(), windi({})],
+	kit: {
+		adapter: adapter(),
 
-    // Override http methods in the Todo forms
-    methodOverride: {
-      allowed: ["PATCH", "DELETE"],
-    },
-    vite: {
-      plugins: [WindiCSS()],
-    },
-  },
+		// Override http methods in the Todo forms
+		methodOverride: {
+			allowed: ['PATCH', 'DELETE']
+		}
+	}
 };
 
 export default config;
