@@ -1,7 +1,7 @@
 <div class="container mx-auto px-5 py-5">
 	<div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
 		<h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About me</h1>
-
+		<img class="mt-6 rounded-lg shadow-xl" src="../static/svelte-welcome.png" alt="todo" />
 		<p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Yuto Mori</p>
 	</div>
 	<div class="flex flex-wrap -m-4">
