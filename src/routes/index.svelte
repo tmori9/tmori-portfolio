@@ -1,7 +1,7 @@
 <div class="max-w-2xl mx-auto p-2 bg-white" />
 <div class="max-w-2xl mx-auto flex p-6 bg-white rounded-lg shadow-xl">
 	<div class="flex-shrink-0">
-		<img class="h-40 w-40" src="../static/icon.png" alt="icon" />
+		<img class="h-40 w-40" src="icon.png" alt="icon" />
 	</div>
 	<div class="ml-6 pt-1">
 		<p class="text-3xl row-span-1 col-span-2">Mori Yuto</p>
